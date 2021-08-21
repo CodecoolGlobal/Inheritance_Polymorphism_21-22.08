@@ -9,6 +9,10 @@ public class Circle extends Shape {
         this.r = r;
     }
 
+    public void where() {
+        System.out.println("Im in circle");
+    }
+
     @Override
     public double area() {
         return PI * r * r;
