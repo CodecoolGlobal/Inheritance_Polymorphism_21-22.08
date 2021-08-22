@@ -2,7 +2,7 @@ package com.codecool.vehicle;
 
 public class RedBicycle extends Bicycle {
     public RedBicycle() {
-        super(Bicycle.RED);
+        super(Color.RED);
     }
 
     @Override

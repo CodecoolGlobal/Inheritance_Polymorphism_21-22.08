@@ -9,6 +9,10 @@ public class Circle extends Shape {
         this.r = r;
     }
 
+    public Circle(double r) {
+        this(r, 0, 0);
+    }
+
     public void where() {
         System.out.println("Im in circle");
     }
